@@ -8,8 +8,8 @@ import "mapbox-gl/dist/mapbox-gl.css";
 // mapboxgl.workerClass = MapboxWorker;
 const Map = () => {
   const [viewport, setViewport] = React.useState({
-    latitude: 31.5304,
-    longitude: 74.3487,
+    latitude: 16.499725,
+    longitude: 80.656067,
     width: "100vw",
     height: "80vh",
     zoom: 12,
@@ -32,10 +32,10 @@ const Map = () => {
         onViewportChange={(viewport) => setViewport(viewport)}
         mapStyle={"mapbox://styles/numananees/cky01qc5u382o14l5u46kvve1"}
       >
-        <Marker latitude={31.519208} longitude={74.319163}>
+        <Marker latitude={16.499725} longitude={80.656067}>
           <div className="marker">
             <a
-              href="https://www.google.com/maps/place/Abrar+Center+wahdat+road+Muslim+town+lahore/@31.5192115,74.317498,17z/data=!4m5!3m4!1s0x391905d80a35cfb3:0x5e6fb4fe9f3d7055!8m2!3d31.5192555!4d74.3192881"
+              href="https://www.google.com/search?q=vijayawada+benz+circle++location+link&rlz=1C1RXQR_enIN1024IN1024&ei=as2jY7ilCLmQseMP04qFyAI&ved=0ahUKEwi4goPpooz8AhU5SGwGHVNFASkQ4dUDCA8&uact=5&oq=vijayawada+benz+circle++location+link&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQogQyBQgAEKIEMgUIABCiBDIFCAAQogQyBQgAEKIEOgoIABBHENYEELADOggIIRDDBBCgAToKCCEQwwQQChCgAUoECEEYAEoECEYYAFDCBlj4RWDXS2gBcAF4AIABrgGIAc8LkgEDNS44mAEAoAEByAEIwAEB&sclient=gws-wiz-serp#"
               target="_blank"
             >
               <img

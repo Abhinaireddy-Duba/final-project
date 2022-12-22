@@ -23,7 +23,7 @@ const Footer = () => {
                     <PushpinOutlined className="f-icons" />
                     <h4>Find us</h4>
                     <span>
-                      Shop Number 12, Abrar Center, wahdat road Lahore
+                      Shop Number 6,Benz circle,Vijayawada,INDIA.
                     </span>
                   </div>
                 </div>
@@ -33,7 +33,7 @@ const Footer = () => {
                 <div className="single-cta">
                   <div className="cta-text">
                     <h4>Call us</h4>
-                    <span>+923310145083</span>
+                    <span>8919870319,8500934699,8008049201</span>
                   </div>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Footer = () => {
                 <div className="single-cta">
                   <div className="cta-text">
                     <h4>Mail us</h4>
-                    <span>sandhu@gmail.com</span>
+                    <span>abhibalavenky123@gmail.com</span>
                   </div>
                 </div>
               </div>

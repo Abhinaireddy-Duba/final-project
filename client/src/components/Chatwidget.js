@@ -77,7 +77,7 @@ const Chatwidget = () => {
       newMessage.includes("Location")
     ) {
       addResponseMessage(
-        `Our address is Shop Number 12, Rehman plaza, wahdat road Lahore.`
+        `Our address is Shop Number 6, Benz circle ,Vijaywada,INDIA.`
       );
     } else if (
       newMessage.includes("how to book") ||
@@ -110,7 +110,7 @@ const Chatwidget = () => {
       newMessage.includes("Phone")
     ) {
       addResponseMessage(
-        `You can send your number here or can directly contact the owner via +923310145083`
+        `You can send your number here or can directly contact the owner via 8919870319,8500934699,8008049201`
       );
     } else if (newMessage.includes("hacker") || newMessage.includes("Hacker")) {
       addResponseMessage(`Hahaha, Nice joke 😄`);
@@ -137,7 +137,7 @@ const Chatwidget = () => {
       addResponseMessage(`I'm Marvin & I'm a Bot 🤖`);
     } else {
       addResponseMessage(
-        `Sorry, I'm currently learning your language. I don't know the answer. Please contact on this number +923310145083.`
+        ``
       );
     }
   };

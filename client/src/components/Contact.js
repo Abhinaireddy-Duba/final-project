@@ -42,7 +42,7 @@ const Contact = () => {
           }}
         >
           Contact
-          <span style={{ color: "#00ffffdf" }}> US</span>
+          <span style={{ color: "#00ffffdf" }}> INDIA</span>
         </h2>
         <div>
           <div className="contact-container">

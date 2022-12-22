@@ -15,7 +15,7 @@ const Services = () => {
             <div class="col-md-12">
               <div class="site-heading text-center">
                 <h2 className="heading-service">
-                  Why Choose<span> US</span>?
+                  Why Choose<span> INDIA</span>?
                 </h2>
               </div>
             </div>
