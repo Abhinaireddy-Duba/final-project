@@ -34,13 +34,18 @@ const Chatwidget = () => {
       newMessage.includes("How are you")
     ) {
       addResponseMessage(`I'm fine. What about you?`);
+      }else if (
+      newMessage.includes("Are You Single") ||
+      newMessage.includes("Are you single")
+    ) {
+      addResponseMessage(`Yes i'm single,Are you Ready to Mingle`);
     } else if (newMessage.includes("marry") || newMessage.includes("Marry")) {
-      addResponseMessage(`Sorry, I'm bot`);
+      addResponseMessage(`Yes, I'm Married`);
     } else if (
       newMessage.includes("your name") ||
       newMessage.includes("Your name")
     ) {
-      addResponseMessage(`I'm marvin`);
+      addResponseMessage(`I'm ABHI`);
     } else if (
       newMessage.includes("my name") ||
       newMessage.includes("My name")

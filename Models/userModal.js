@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
   phone: { type: Number },
   admin: {
     type: Boolean,
-    default: false,
+    default: true,
   },
 });
 
