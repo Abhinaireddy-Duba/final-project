@@ -34,7 +34,7 @@ function AdminHome() {
                 Admin Panel
               </h3>
               <button className="btnAdd">
-                <a href="/addcar">ADD CAR</a>
+                <a href="/addcar">ADD CAR</a>                                                                                                                                                                                                                                                                                                                                                
               </button>
             </div>
           </Col>
@@ -46,7 +46,7 @@ function AdminHome() {
           <button
             className="btnerror mt-2"
             onClick={() => {
-              window.location.href = "/";
+              window.location.href = "/";                                                                                                                                                          
             }}
           >
             Go back

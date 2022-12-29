@@ -36,11 +36,11 @@ function App() {
             }
           ></Route>
           <Route path="/login" exact element={<Login />}></Route>
-          <Route path="/register" exact element={<Register />}>
+          <Route path="/register" exact element={<Register />}>                                                                                                                                           
             {" "}
           </Route>
           <Route
-            path="/booking"
+            path="/booking"                                                                                                                                                                                                    
             exact
             element={
               <ProtectedRoute>
